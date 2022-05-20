@@ -16,5 +16,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+            
+            f.Owner = this;
+           
+        }
+      
     }
 }
